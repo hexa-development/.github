@@ -19,6 +19,7 @@
 | Repository | คำอธิบาย |
 | --- | --- |
 | [**hexa_core**](https://github.com/hexa-development/hexa_core) | เฟรมเวิร์กหลัก — ระบบผู้เล่น อาชีพ ไอเทม เงิน สถานะ callbacks และ permission ครบในตัวเดียว โครงสร้างสไตล์ ESX |
+| [**hexa-bridge**](https://github.com/hexa-development/hexa-bridge) | Compatibility bridges — รันสคริปต์ RSG/VORP บน hexa_core ได้โดยไม่แก้โค้ด + MCP bridge สำหรับเครื่องมือ ops |
 | [**hexa-docs**](https://github.com/hexa-development/hexa-docs) | เว็บไซต์เอกสารประกอบการใช้งาน สร้างด้วย VitePress (Vue.js) |
 
 ## 🚀 เริ่มต้นใช้งาน
