@@ -2,9 +2,7 @@
 
 # 🤠 Hexa Development
 
-**เฟรมเวิร์กและสคริปต์สำหรับเซิร์ฟเวอร์ RedM Roleplay**
-
-*Framework & scripts for RedM roleplay servers*
+**Framework & scripts for RedM roleplay servers**
 
 [![Docs](https://img.shields.io/badge/docs-hexa--docs-b45309?style=for-the-badge)](https://hexa-development.github.io/hexa-docs/)
 [![RedM](https://img.shields.io/badge/game-RedM-8b0000?style=for-the-badge)](https://redm.net/)
@@ -14,22 +12,22 @@
 
 ---
 
-## 📦 โปรเจกต์หลัก
+## 📦 Projects
 
-| Repository | คำอธิบาย |
+| Repository | Description |
 | --- | --- |
-| [**hexa_core**](https://github.com/hexa-development/hexa_core) | เฟรมเวิร์กหลัก — ระบบผู้เล่น อาชีพ ไอเทม เงิน สถานะ callbacks และ permission ครบในตัวเดียว โครงสร้างสไตล์ ESX |
-| [**hexa-bridge**](https://github.com/hexa-development/hexa-bridge) | Compatibility bridges — รันสคริปต์ RSG/VORP บน hexa_core ได้โดยไม่แก้โค้ด + MCP bridge สำหรับเครื่องมือ ops |
-| [**hexa-docs**](https://github.com/hexa-development/hexa-docs) | เว็บไซต์เอกสารประกอบการใช้งาน สร้างด้วย VitePress (Vue.js) |
+| [**hexa_core**](https://github.com/hexa-development/hexa_core) | The core framework — players, jobs, items, money, status, callbacks, and permissions in a single resource. ESX-style structure |
+| [**hexa-bridge**](https://github.com/hexa-development/hexa-bridge) | Compatibility bridges — run RSG/VORP scripts on hexa_core without code changes |
+| [**hexa-docs**](https://github.com/hexa-development/hexa-docs) | Documentation website, built with VitePress (Vue.js) |
 
-## 🚀 เริ่มต้นใช้งาน
+## 🚀 Getting started
 
-อ่านคู่มือติดตั้งและ API Reference ฉบับเต็มได้ที่
+Read the full installation guide and API reference at
 
 ### 👉 [hexa-development.github.io/hexa-docs](https://hexa-development.github.io/hexa-docs/)
 
 ```lua
--- ดึง core object จาก resource ของคุณ
+-- grab the core object from your resource
 local HexaCore = exports['hexa_core']:GetCoreObject()
 
 local Player = HexaCore.Functions.GetPlayer(source)
@@ -38,14 +36,14 @@ Player.Functions.AddMoney('cash', 100, 'welcome bonus')
 
 ## 🛠️ Tech Stack
 
-- **Lua 5.4** — สคริปต์ทั้งหมดบน FXServer (RedM)
-- **MariaDB / MySQL** ผ่าน [oxmysql](https://github.com/CommunityOx/oxmysql)
-- **VitePress + Vue.js** — เว็บเอกสาร
+- **Lua 5.4** — all scripts run on FXServer (RedM)
+- **MariaDB / MySQL** via [oxmysql](https://github.com/CommunityOx/oxmysql)
+- **VitePress + Vue.js** — documentation site
 
 ---
 
 <div align="center">
 
-*สุภาพบุรุษแดนเถื่อน ขี่ม้า เขียนโค้ด* 🐎
+*Ride horses. Write code.* 🐎
 
 </div>
