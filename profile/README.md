@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤠 Hexa Development
+# 🤠 Hexa Framework
 
 **Framework & scripts for RedM roleplay servers**
 
