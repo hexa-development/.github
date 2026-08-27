@@ -42,11 +42,29 @@ The project focuses on providing a clean foundation for server development witho
 
 ## Projects
 
-| Project                                                          | Description                                                                                                   |
-| :--------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
-| [`hexa_core`](https://github.com/hexa-development/hexa_core)     | Core framework providing players, jobs, items, money, status, permissions, callbacks, events, and server APIs |
-| [`hexa-bridge`](https://github.com/hexa-development/hexa-bridge) | Compatibility layer for integrating supported RSG and VORP resources with Hexa                                |
-| [`hexa-docs`](https://github.com/hexa-development/hexa-docs)     | Official Hexa documentation and API reference powered by VitePress                                            |
+Every part of Hexa is its own repository. Install only what your server needs.
+
+### Framework
+
+| Project | Description |
+| :--- | :--- |
+| [`hexa_core`](https://github.com/hexa-development/hexa_core) | Core framework — players, jobs, items, economy, status, callbacks, permissions, and persistent character data |
+| [`hexa-bridge`](https://github.com/hexa-development/hexa-bridge) | Compatibility layer for running supported RSG and VORP resources on Hexa |
+
+### Resources
+
+| Project | Description |
+| :--- | :--- |
+| [`hexa_inventory`](https://github.com/hexa-development/hexa_inventory) | Persistent grid inventory — stashes, shops, ground drops, secure trading, quick slots |
+| [`hexa_progbar`](https://github.com/hexa-development/hexa_progbar) | Screen-fixed progress bar — standalone drop-in for `ox_lib` `progressBar` |
+
+### Documentation & Tooling
+
+| Project | Description |
+| :--- | :--- |
+| [`hexa-docs`](https://github.com/hexa-development/hexa-docs) | Official documentation and API reference, powered by VitePress |
+| [`txAdmin`](https://github.com/hexa-development/txAdmin) | txAdmin deployment recipe for a Hexa server *(work in progress)* |
+| [`rdr2-unpack`](https://github.com/hexa-development/rdr2-unpack) | Read a local RDR2 install into open formats — GLB models, PNG textures, parsed `.ymap` placements |
 
 ---
 
@@ -253,9 +271,9 @@ resources/
 │
 ├── [hexa]/
 │   ├── hexa_core/
+│   ├── hexa_inventory/
+│   ├── hexa_progbar/
 │   ├── hexa-bridge/
-│   ├── hexa_banking/
-│   ├── hexa_notify/
 │   └── ...
 │
 ├── [standalone]/
@@ -311,8 +329,12 @@ For production servers, review release notes before updating core resources.
 <br>
 
 [Documentation](https://hexa-development.github.io/hexa-docs/) ·
-[GitHub](https://github.com/hexa-development) ·
-[RedM](https://redm.net/)
+[เอกสารภาษาไทย](https://hexa-development.github.io/hexa-docs/th/) ·
+[hexa_core](https://github.com/hexa-development/hexa_core) ·
+[hexa_inventory](https://github.com/hexa-development/hexa_inventory) ·
+[hexa_progbar](https://github.com/hexa-development/hexa_progbar) ·
+[hexa-bridge](https://github.com/hexa-development/hexa-bridge) ·
+[Organization](https://github.com/hexa-development)
 
 <br>
 
