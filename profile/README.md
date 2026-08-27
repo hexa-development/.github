@@ -63,7 +63,7 @@ Every part of Hexa is its own repository. Install only what your server needs.
 | Project | Description |
 | :--- | :--- |
 | [`hexa-docs`](https://github.com/hexa-development/hexa-docs) | Official documentation and API reference, powered by VitePress |
-| [`txAdmin`](https://github.com/hexa-development/txAdmin) | txAdmin deployment recipe for a Hexa server *(work in progress)* |
+| [`txAdmin`](https://github.com/hexa-development/txAdmin) | One-click txAdmin recipe that deploys the whole Hexa stack |
 | [`rdr2-unpack`](https://github.com/hexa-development/rdr2-unpack) | Read a local RDR2 install into open formats — GLB models, PNG textures, parsed `.ymap` placements |
 
 ---
